@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.render('home')
 })
 
-app.listen(port, () => {
+app.listen(port, (err) => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 
